@@ -68,7 +68,7 @@ main{max-width:1180px;margin:0 auto;padding:0 1.25rem}
 .sleeve img{position:relative;width:100%;height:100%;object-fit:cover;box-shadow:0 22px 40px -22px rgba(0,0,0,.55)}
 .sleeve .rk{position:absolute;right:-.9rem;bottom:-1.6rem;font:900 clamp(4.5rem,9vw,7.5rem)/.8 var(--disp);color:var(--c);
   -webkit-text-stroke:3px var(--ink);paint-order:stroke fill;text-shadow:5px 5px 0 var(--ink)}
-.tx{max-width:40em}
+.tx{max-width:40em;min-width:0;overflow-wrap:break-word}
 .pos{margin:0;font:800 1.1rem/1 var(--disp);text-transform:uppercase;letter-spacing:.02em}
 .tx h2{margin:.35rem 0 .9rem;line-height:.95}
 .tx .ar{display:block;font:900 clamp(2.2rem,4.4vw,3.4rem)/.92 var(--disp);text-transform:uppercase}
